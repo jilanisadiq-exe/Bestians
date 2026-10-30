@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jilani's portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- ================= PRELOADER ================= -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- ================= HEADER ================= -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                Portfolio
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hello">
+                Hello, I'm
+            </p>
+            <h1>
+              
+                Jilani sadiq
+                
+            </h1>
+            <h2>
+                <span id="typing"></span>
+            </h2>
+            <p class="hero-text">
+                I create beautiful, responsive and modern websites using
+                HTML, CSS and JavaScript.
+                I love building attractive user interfaces
+                and interactive web experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">
+                    Hire Me
+                </a>
+                <a href="files/resume.pdf" download class="btn secondary">
+                    Download CV
+                </a>
+            </div>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="circle"></div>
+            <img src="images/mypic.png" alt="Profile">
+        </div>
+    </section>
+    <!-- Scroll Down -->
+    <div class="scroll-down">
+        <a href="#about">
+            <i class="fa-solid fa-angles-down"></i>
+        </a>
+    </div>
+    <!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <div class="section-title">
+        <h2>About Me</h2>
+        <span>Who I Am</span>
+    </div>
+    <div class="about-container">
+        <div class="about-image">
+            <img src="images/about.png" alt="About Me">
+        </div>
+        <div class="about-content">
+            <h3>Web Designer & Front-End Developer</h3>
+            <p>
+                Hello! I'm <strong>Jilani sadiq</strong>, a passionate web designer
+                who enjoys creating modern, responsive, and user-friendly websites.
+                I specialize in HTML, CSS, JavaScript, and creating attractive UI designs.
+            </p>
+            <p>
+                My goal is to help businesses and individuals build fast,
+                responsive, and visually appealing websites while continuously
+                improving my skills.
+            </p>
+            <div class="about-info">
+                <div>
+                    <h4>Name</h4>
+                    <p>Jilani sadiq</p>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <p>jilanisadiq@example.com</p>
+                </div>
+                <div>
+                    <h4>Location</h4>
+                    <p>India</p>
+                </div>
+                <div>
+                    <h4>Experience</h4>
+                    <p>Fresher</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================= SKILLS ================= -->
+<section class="skills" id="skills">
+    <div class="section-title">
+        <h2>My Skills</h2>
+        <span>What I Know</span>
+    </div>
+    <div class="skills-container">
+        <div class="skill">
+            <div class="skill-title">
+                <span>HTML</span>
+                <span>95%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-title">
+                <span>CSS</span>
+                <span>90%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar css"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-title">
+                <span>JavaScript</span>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-title">
+                <span>Responsive Design</span>
+                <span>95%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar responsive"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-title">
+                <span>UI/UX Design</span>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar ui"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+    <div class="section-title">
+        <h2>My Services</h2>
+        <span>What I Offer</span>
+    </div>
+    <div class="service-container">
+        <div class="service-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Web Design</h3>
+            <p>
+                Modern and attractive website designs for businesses,
+                portfolios, and personal brands.
+            </p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive Design</h3>
+            <p>
+                Mobile-friendly layouts that work perfectly on every device.
+            </p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-code"></i>
+            <h3>Frontend Development</h3>
+            <p>
+                Interactive websites built using HTML, CSS, and JavaScript.
+            </p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-palette"></i>
+            <h3>UI Design</h3>
+            <p>
+                Beautiful interfaces with animations and modern user experience.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- ================= STATS ================= -->
+<section class="stats">
+    <div class="stat-box">
+        <h2 class="counter" data-target="25">0</h2>
+        <p>Projects Completed</p>
+    </div>
+    <div class="stat-box">
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Happy Clients</p>
+    </div>
+    <div class="stat-box">
+        <h2 class="counter" data-target="2">0</h2>
+        <p>Years Learning</p>
+    </div>
+    <div class="stat-box">
+        <h2 class="counter" data-target="100">0</h2>
+        <p>Dedication (%)</p>
+    </div>
+</section>
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
+    <div class="section-title">
+        <h2>My Projects</h2>
+        <span>Recent Work</span>
+    </div>
+    <!-- Filter Buttons -->
+    <div class="project-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+        <button class="filter-btn" data-filter="landing">Landing Page</button>
+        <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+    </div>
+    <!-- Project Cards -->
+    <div class="project-container">
+        <!-- Project 1 -->
+        <div class="project-card portfolio">
+            <img src="images/project1.jpg" alt="Portfolio Website">
+            <div class="project-overlay">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A fully responsive portfolio website created using
+                    HTML, CSS and JavaScript.
+                </p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn small">Live Demo</a>
+                    <a href="#" class="btn secondary small">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card landing">
+            <img src="images/project2.jpg" alt="Landing Page">
+            <div class="project-overlay">
+                <h3>Business Landing Page</h3>
+                <p>
+                    A modern landing page with animations and responsive design.
+                </p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn small">Live Demo</a>
+                    <a href="#" class="btn secondary small">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card ecommerce">
+            <img src="images/project3.jpg" alt="E-Commerce">
+            <div class="project-overlay">
+                <h3>E-Commerce Website</h3>
+                <p>
+                    Responsive online shopping website with modern UI.
+                </p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn small">Live Demo</a>
+                    <a href="#" class="btn secondary small">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card portfolio">
+            <img src="images/project.jpg" alt="Dashboard">
+           <div class="project-overlay">
+                <h3>Admin Dashboard</h3>
+                <p>
+                    Beautiful dashboard UI with responsive layout and charts.
+                </p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn small">Live Demo</a>
+                    <a href="#" class="btn secondary small">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="project-card landing">
+            <img src="images/project5.jpg" alt="Restaurant Website">
+            <div class="project-overlay">
+                <h3>Restaurant Website</h3>
+                <p>
+                    Modern restaurant website with menu and online booking.
+                </p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn small">Live Demo</a>
+                    <a href="#" class="btn secondary small">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="project-card ecommerce">
+            <img src="images/project6.jpg" alt="Online Store">
+            <div class="project-overlay">
+                <h3>Online Store</h3>
+                <p>
+                    Fully responsive shopping website with product cards.
+                </p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn small">Live Demo</a>
+                   <a href="#" class="btn secondary small">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience" id="experience">
+    <div class="section-title">
+        <h2>Experience</h2>
+        <span>My Journey</span>
+    </div>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Frontend Development Learning</h3>
+                <small>2024 - Present</small>
+                <p>
+                    Learning HTML, CSS, JavaScript, Responsive Design,
+                    UI/UX principles, animations and modern web development.
+                </p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Personal Portfolio Projects</h3>
+                <small>2024 - Present</small>
+                <p>
+                    Developed responsive portfolio websites and landing pages
+                    to improve frontend development skills.
+                </p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Freelance Practice</h3>
+                <small>2025</small>
+                <p>
+                    Built demo websites including restaurant websites,
+                    business landing pages and personal portfolios.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================= CERTIFICATES ================= -->
+<section class="certificates" id="certificates">
+    <div class="section-title">
+        <h2>Certificates</h2>
+        <span>Achievements</span>
+    </div>
+    <div class="certificate-container">
+        <div class="certificate-card">
+            <i class="fas fa-award"></i>
+            <h3>HTML & CSS</h3>
+            <p>
+                Responsive Web Design Certificate
+            </p>
+            <a href="#" class="btn small">
+                View Certificate
+            </a>
+        </div>
+        <div class="certificate-card">
+            <i class="fas fa-medal"></i>
+            <h3>JavaScript</h3>
+            <p>
+                JavaScript Fundamentals
+            </p>
+            <a href="#" class="btn small">
+                View Certificate
+            </a>
+        </div>
+        <div class="certificate-card">
+            <i class="fas fa-trophy"></i>
+            <h3>Frontend Development</h3>
+            <p>
+                Frontend Development Course
+            </p>
+            <a href="#" class="btn small">
+                View Certificate
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="testimonials">
+    <div class="section-title">
+        <h2>Testimonials</h2>
+        <span>What People Say</span>
+    </div>
+    <div class="testimonial-slider">
+        <div class="testimonial-track">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card active">
+                <img src="images/client1.jpg" alt="Client 1">
+                <h3>John Smith</h3>
+                <span>Business Owner</span>
+                <p>
+                    "Working with Your Name was an amazing experience.
+                    The website was modern, responsive, and delivered
+                    exactly as requested. Highly recommended!"
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <img src="images/client2.jpg" alt="Client 2">
+                <h3>Sarah Johnson</h3>
+                <span>Startup Founder</span>
+                <p>
+                    "Professional, creative, and always on time.
+                    The responsive design works perfectly on every
+                    device. Fantastic work!"
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <img src="images/client3.jpg" alt="Client 3">
+                <h3>Michael Brown</h3>
+                <span>Freelance Client</span>
+                <p>
+                    "Excellent communication and beautiful UI design.
+                    My website looks professional and loads very fast.
+                    I would definitely work together again."
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Buttons -->
+        <button class="testimonial-btn prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="testimonial-btn next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <!-- Dots -->
+        <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+</section>
+<!-- ================= ACHIEVEMENTS ================= -->
+<section class="achievements" id="achievements">
+    <div class="section-title">
+      <h2>Achievements</h2>
+        <span>Milestones</span>
+    </div>
+    
+    <div class="achievement-container">
+        <div class="achievement-card">
+            <i class="fas fa-folder-open"></i>
+            <h3>25+</h3>
+            <p>Projects Completed</p>
+        </div>
+        <div class="achievement-card">
+            <i class="fas fa-users"></i>
+            <h3>10+</h3>
+            <p>Happy Clients</p>
+        </div>
+        <div class="achievement-card">
+            <i class="fas fa-code"></i>
+            <h3>50000+</h3>
+            <p>Lines of Code</p>
+        </div>
+        <div class="achievement-card">
+            <i class="fas fa-award"></i>
+            <h3>3+</h3>
+            <p>Certificates Earned</p>
+        </div>
+    </div>
+</section>
+<!-- ================= CALL TO ACTION ================= -->
+<section class="cta">
+    <div class="cta-content">
+        <h2>Let's Build Something Amazing Together!</h2>
+        <p>
+            I'm available for freelance work, internships,
+            and full-time web design opportunities.
+        </p>
+        <div class="cta-buttons">
+            <a href="#contact" class="btn">
+                Hire Me
+            </a>
+            <a href="files/resume.pdf" download class="btn secondary">
+                Download CV
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+    <div class="section-title">
+        <h2>Contact Me</h2>
+        <span>Get In Touch</span>
+    </div>
+    <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <div class="info-box">
+                <i class="fas fa-user"></i>
+                <div>
+                    <h3>Name</h3>
+                    <p>Your Name</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3>Email</h3>
+                    <p>your@email.com</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+91 XXXXXXXXXX</p>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <i class="fas fa-location-dot"></i>
+                <div>
+                    <h3>Location</h3>
+                    <p>India</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="footer-content">
+        <h2>Jilani sadiq</h2>
+        <p>
+            Web Designer | Frontend Developer
+        </p>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="copyright">
+            © 2026 Jilani sadiq. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+<!-- ================= BACK TO TOP ================= -->
+<a href="#home" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</a>
+<script src="script.js"></script>
+
+</body>
+</html>
